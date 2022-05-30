@@ -1,7 +1,11 @@
 import type { NextPage } from 'next'
 
-const Home: NextPage = () => (
-    <h3>Next js</h3>
-)
+const Main: NextPage = () => {
+  return (
+    <>
+      <header className="container mx-auto px-4">header</header>
+    </>
+  )
+}
 
-export default Home
+export default Main
